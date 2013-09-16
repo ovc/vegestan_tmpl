@@ -1,0 +1,221 @@
+/* Space out content a bit */
+body {
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
+  background-image: url(./img/bg-21.png); /* Путь к фоновому изображению */
+  background-color: #fff; /* Цвет фона */
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  font-size: 23px;
+}
+
+/* Custom button color */
+
+a {
+color:  rgb(51, 51, 51);
+}
+
+a:hover, a:focus {
+    color: rgb(51, 51, 51);
+    text-decoration: underline;
+}
+
+.nav > li > a {
+    padding: 8px 15px;
+}
+
+.nav-tabs > li > a {
+    background-color: #eeeeee;
+    padding: 4px 16px;
+    color: rgb(85, 85, 85);
+    border-bottom: 1px solid #dddddd;
+	margin-right:3px;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    color: rgb(51, 51, 51);
+    background-color: #dddddd;
+}
+
+.navbar {
+    margin-bottom: 11px;
+    min-height: 30px;
+}
+
+.navbar-brand {
+    padding: 7px 10px 5px 10px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+}
+
+.nav-pills > li.active > a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 164, 71);
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: rgb(71, 164, 71);
+}
+
+.crumbs {
+}
+
+.crumbs > p {
+    font-size:10px;
+    padding-left:10px;
+    color: rgb(85, 85, 85);
+}
+
+.crumbs > p > a {
+    color: rgb(85, 85, 85);
+}
+
+.crumbs > p > a {
+    color: rgb(85, 85, 85);
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.jumbotron h1 {
+    line-height: 1;
+    color: rgb(85, 85, 85);
+    margin-top: 25px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.container .jumbotron {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.lead {
+    font-size: 11px;
+    color: rgb(85, 85, 85);
+    font-style: italic;
+}
+
+/* Recipe content
+
+/* Ingredients sidebar 
+.col-lg-4 {
+    padding-right: 0px;
+    padding-left: 15px;
+}*/
+
+ul.ingred li
+{
+    margin-left: -25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+ul.ingred {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 10px 0 0 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.well {
+    padding: 11px 19px 11px;margin-bottom: 15px;
+}
+
+.well > p > a {
+    border-bottom: 1px dashed rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.well > p > a:hover, .well > p > a:active, .well > p > a:focus {
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+
+.form-control:focus {
+    border-color: rgb(101, 201, 70);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(101, 201, 70, 0.6);
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer {
+    font-size: 11px;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
