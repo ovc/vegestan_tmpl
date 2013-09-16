@@ -191,6 +191,15 @@ ul.ingred {
     text-decoration: none;
 }
 
+blockquote {
+	    padding: 5px 10px;
+	    margin: 0px 0px 15px;
+	    border-left: 3px solid rgb(238, 238, 238);
+}
+
+blockquote p {
+	    font-size: 14px;
+}
 
 .form-control:focus {
     border-color: rgb(101, 201, 70);
