@@ -13,10 +13,10 @@
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <!-- <link href="./css/bootstrap-theme.min.css" rel="stylesheet"> -->
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="jumbotron-narrow.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -39,11 +39,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand hidden-xs" href="#"><img src="./img/leaf-rght-btt-20.png" width="16px" style="margin-right:3px;">ВЕГЕСТАН</a>
-            <a class="navbar-brand visible-xs" href="#" style="margin-top:8px;margin-left:6px;"><img src="./img/leaf-rght-btt-20.png" width="16px" style="margin-right:3px;">ВЕГЕСТАН</a>
+            <a class="navbar-brand" href="#"><img src="./img/leaf-rght-btt-20.png" width="16px" style="margin-right:3px;">ВЕГЕСТАН</a>
           </div>
           <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">&nbsp;</a></li>
+            </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">&nbsp;</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: rgb(57, 132, 57);">РЕЦЕПТЫ<b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -61,19 +64,7 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">СТАТЬИ<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">О питании</a></li>
-                  <li><a href="#">Чем заменить яйцо в выпечке</a></li>
-                  <li><a href="#">Питание без мяса</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Последние статьи:</li>
-                  <li><a href="#">Восполнение белка</a></li>
-                  <li><a href="#">Гречневая каша</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ЕЩЕ<b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">БОЛЬШЕ<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">О питании</a></li>
                   <li><a href="#">Чем заменить яйцо в выпечке</a></li>
@@ -89,35 +80,12 @@
         </div>
       </div>
 
+<div class="crumbs"><p><a href="#">Рецепты</a>&nbsp;&bull;&nbsp;<a href="#">Основные блюда</a>&nbsp;&bull;&nbsp;<a href="#">Салат из свежих томатов</a></p></div>
+
  <!-- =============== Begin of Jumbotron =============== -->
 
-      <div class="crumbs" style="background-color:#fff;">
-	      <div class="col-lg-12 " "padding-left: 2px;">&nbsp;&nbsp;
-		      <div class="pull-left hidden-xs" style="padding-top: 5px;">
-		      <a href="#">Рецепты</a>&nbsp;&bull;&nbsp;
-		      <a href="#">Основные блюда</a>&nbsp;&bull;&nbsp;
-		      <a href="#">Салат из свежих томатов</a>
-	      	      </div>
-		      <div class="pull-right" style="padding-top:3px;">
-		      <a href="#"><img src="./img/social/facebook.png" width="18px"/></a>
-		      <a href="#"><img src="./img/social/twitter.png" width="18px"/></a>
-		      <a href="#"><img src="./img/social/facebook.png" width="18px"/></a>
-		      <a href="#"><img src="./img/social/rss.png" width="18px"/></a>
-		<!--	      
-		      <a href="#"><img src="./img/marketing/vk-32.png" width="16px"/></a>
-		      <a href="#"><img src="./img/marketing/fb-32.png" width="16px"/></a>
-		      <a href="#"><img src="./img/marketing/tw-32.png" width="16px"/></a>
-		      <a href="#"><img src="./img/marketing/email-32.png" width="16px"/></a>
-		      <a href="#"><img src="./img/marketing/rss-32.png" width="16px"/></a>
-		-->
-	      	</div>
-	      </div>
-      </div>	      
-
-	<div class="clearfix"></div>
-
-      <div id="jumbotron" class="jumbotron";">
-        <ul class="nav nav-pills pull-right hidden-xs">
+      <div class="jumbotron" style="min-height:330px; background-image: url(./img/vegetarianf.png);">
+        <ul class="nav nav-pills pull-right">
 <!--         <li class="active"><a href="#">Другой</a></li>
           <li><a href="#">Больше</a></li>
 -->
@@ -125,19 +93,8 @@
 		<!-- <a href="#"><button class="btn btn-default" type="button" style="font-size: 14px;padding: 7px 12px;"> Больше </button></a> -->
         </ul>
 
-	<h1 style="text-shadow: 1px 1px 0px #fff;">Салат из свежих томатов</h1>
-        <p class="lead" style="text-shadow: 1px 1px 0px #fff;">&laquo;Очень вкусная летняя закуска в виде легкого салата в заправке из виноградного уксуса&raquo;</p>
-	<img src="./img/marketing/star-shape-sticker1.png" width="140px" class="hidden-xs" style="margin-left: 40px; margin-top: 5px;" />
-	<div class="clearfix"></div>
-		<div class="col-lg-4 pull-right hidden-xs" style="padding-top:20px";>
-		    <form role="search">
-			<div class="form-group" style="padding-left:2px; padding-top:20px;">
-				<input type="text" class="form-control" placeholder="Поиск" style="width: 100%; height: 30px;">
-			</div>
-			<!-- <button type="submit" class="btn btn-default">Ok</button> -->
-		    </form>
-		</div>
-
+	<h1 style="text-shadow: 1px 1px 1px #fff;">Салат из свежих томатов</h1>
+        <p class="lead" style="text-shadow: 1px 1px 1px #fff;">&laquo;Очень вкусная летняя закуска в виде легкого салата в заправке из виноградного уксуса&raquo;</p>
       </div>
 
 
@@ -147,13 +104,7 @@
 
 <!-- <div><p style="font-size:10px;padding-left:10px;"><hr/></p></div> -->
 
-<ul class="nav nav-tabs hidden-xs" nav-justified id="myTab" style="line-height: 0.8;">
-  <li class="active"><a data-toggle="tab" href="#recipetab">Способ приготовления</a></li>
-  <li class=""><a data-toggle="tab" href="#notetab">Оставить заметку&nbsp;<span class="badge" style="padding-top: 5px;padding-bottom: 3px;">4</span></a></li>
-  <li class=""><a data-toggle="tab" href="#similartab">Похожие рецепты</a></li>
-  <li class=""><a href="#">Добавить рецепт</a></li>
-</ul>
-<ul class="nav nav-tabs visible-xs nav-justified" id="myTab" style="line-height: 0.8;">
+<ul class="nav nav-tabs" id="myTab" style="line-height: 0.8;">
   <li class="active"><a data-toggle="tab" href="#recipetab">Способ приготовления</a></li>
   <li class=""><a data-toggle="tab" href="#notetab">Оставить заметку&nbsp;<span class="badge" style="padding-top: 5px;padding-bottom: 3px;">4</span></a></li>
   <li class=""><a data-toggle="tab" href="#similartab">Похожие рецепты</a></li>
@@ -172,7 +123,7 @@
 
 <div class="row marketing">
 
-        <div class="col-lg-8">
+        <div class="col-lg-8" style="padding-left: 2px; padding-right: 10px;">
 
 		<div class="well">
 			<p style="font-size:14px ;color: rgb(85, 85, 85);"><i>&laquo;Употреблять пищу лучше в теплом виде, запивая небольшим количеством воды&raquo;</i></p>
@@ -180,11 +131,7 @@
 			<h4>Салат из свежих томатов</h4>
 
 			<p>Morbi leo risus, porta ac consectetur ac, <a href="#">vestibulum</a> at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-			<div class="hidden-xs"><img src="./img/vegetarianf.png" width="350px" class="img-rounded" /></div>
-			<div class="visible-xs">
-			<a href="./img/vegetarianf.png" />
-			    <img class="img-thumbnail" src="./img/photo_here.png" alt="Click to view image" style="width: 130px; height: 130px;"></img></a>
-			</div>
+			<img src="./img/vegetarianf.png" width="350px" class="img-rounded" />
 			<!-- <img src="..." alt="..." class="img-thumbnail"> -->
 		
 			<h4>Что-то еще здесь</h4>
@@ -193,7 +140,7 @@
 		</div>
 	</div> <!-- End of right content -->
 
-	<div class="col-lg-4" >
+	<div class="col-lg-4" style="padding-right: 1px; padding-left: 10px; ">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title">Ингредиенты</h3>
@@ -236,9 +183,66 @@
 				<h3 class="panel-title">Новые рецепты</h3>
 			</div>
 			<div class="panel-body">
-				Здесь будут новые рецепты
+				Мята: 1 пучок
+
+
+
+
+<div id="carousel-example-generic" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+</div>
+
+<script>
+$('.carousel').carousel({
+  interval: 2000
+})
+</script>
+
+		          </ul>
 			</div>
 		</div>
+
+		<div>
+		    <form role="search">
+			<div class="form-group" style="padding-left:2px;">
+				<input type="text" class="form-control" placeholder="Поиск" style="width: 100%; height: 30px;">
+			</div>
+			<!-- <button type="submit" class="btn btn-default">Ok</button> -->
+		    </form>
+		</div>
+
+		<div>
+			<a target="_blank" href="http://vk.com/"><img src="./img/soc/vkontakte.png"></img></a>
+			<a target="_blank" href="https://www.facebook.com/"><img src="./img/soc/facebook.png"></img></a>
+			<a target="_blank" href="http://my.mail.ru/mail/"><img src="./img/soc/moy-mir.png"></img></a>
+			<a target="_blank" href="http://twitter.com/"><img src="./img/soc/twitter.png"></img></a>
+		</div>
+
+vk, fb/g+, twitter, rss
 
 	</div> <!-- End of right sidebar -->
 
@@ -251,7 +255,7 @@
 
 <div class="row marketing">
 
-        <div class="col-lg-8">
+        <div class="col-lg-8" style="padding-left: 2px; padding-right: 10px;">
 
 		<div class="well">
 			<!-- <h4>Отзывы</h4> -->
@@ -280,7 +284,7 @@
 		</div>
 	</div> <!-- End of right content -->
 
-	<div class="col-lg-4">
+	<div class="col-lg-4" style="padding-right: 1px; padding-left: 10px; ">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title">Заметки</h3>
@@ -307,6 +311,22 @@
 				</ul>
 			</div>
 		</div>
+	
+		<div>
+		    <form role="search">
+			<div class="form-group" style="padding-left:2px;">
+				<input type="text" class="form-control" placeholder="Поиск" style="width: 100%; height: 30px;">
+			</div>
+			<!-- <button type="submit" class="btn btn-default">Ok</button> -->
+		    </form>
+		</div>
+		<div>
+			<a target="_blank" href="http://vk.com/"><img src="./img/soc/vkontakte.png"></img></a>
+			<a target="_blank" href="https://www.facebook.com/"><img src="./img/soc/facebook.png"></img></a>
+			<a target="_blank" href="http://my.mail.ru/mail/"><img src="./img/soc/moy-mir.png"></img></a>
+			<a target="_blank" href="http://twitter.com/"><img src="./img/soc/twitter.png"></img></a>
+		</div>
+
 
 	</div> <!-- End of right sidebar -->
 
@@ -376,6 +396,52 @@
 			  </div>
 			</div>
 
+
+<br/><h3>Либо так:</h3><br/>
+
+			  <dt>&#8226;&nbsp;Салат из броколи</dt>
+			  <dd><span style="color:grey">&ndash;&nbsp;помидоры, капуста броколи, масло, сладкий (болгаский) перец.</span></dd>
+
+			  <dt>&#8226;&nbsp;Острый салат с перцем чили</dt>
+			  <dd><span style="color:grey">&ndash;&nbsp;перец чили, листья салата.</span></dd>
+
+			  <dt>&#8226;&nbsp;Салат из моркови с кинзой</dt>
+			  <dd><span style="color:grey">&ndash;&nbsp;морковь, кинза, красный перец, асафетида.</span></dd>
+
+
+			<h4 style="color: rgb(85, 85, 85);">Закуски</h4>
+
+			  <dt>&#8226;&nbsp;Сендвичи с помидором</dt>
+			  <dd><span style="color:grey">&ndash;&nbsp;помидоры, масло, сладкий (болгаский) перец.</span></dd>
+
+			  <dt>&#8226;&nbsp;Сушенный помидор на вилке</dt>
+			  <dd><span style="color:grey">&ndash;&nbsp;помидор, солнце, вилка.</span></dd>
+
+			<h4 style="color: rgb(85, 85, 85);">Напитки</h4>
+
+			  <dt>&#8226;&nbsp;Томатный сок</dt>
+			  <dd><span style="color:grey">&ndash;&nbsp;помидоры, вода.</span></dd>
+
+<br/><h3>Либо так:</h3><br/>
+
+			<dl>
+
+			  <dt>Салаты</dt>
+			  <dd>&#8226;&nbsp;Салат из броколи:<span style="color:grey"> помидоры, капуста броколи, масло, сладкий (болгаский) перец.</span></dd>
+			  <dd>&#8226;&nbsp;Острый салат с перцем чили:<span style="color:grey"> перец чили, листья салата</span></dd>
+			  <dd>&#8226;&nbsp;Салат из моркови с кинзой:<span style="color:grey"> (состав)</span></dd>
+			  <dd>&nbsp</dd>
+
+			  <dt>Закуски</dt>
+			  <dd>&#8226;&nbsp;Сендвичи с помидором: (состав)</dd>
+			  <dd>&#8226;&nbsp;Сушенный помидор на вилке: (состав)</dd>
+			  <dd>&nbsp</dd>
+
+			  <dt>Напитки</dt>
+			  <dd>&#8226;&nbsp;Томатный сок: (состав)</dd>
+
+			</dl>
+
 			<p style="font-size:14px ;color: rgb(85, 85, 85); padding-top:12px;"><i>&laquo;Очень вкусная летняя закуска в виде легкого салата в заправке из виноградного уксуса&raquo;</i></p>
 		</div>
 	</div> <!-- End of right content -->
@@ -398,6 +464,22 @@
 					<li>Ссылка</li>
 				</ul>
 			</div>
+		</div>
+
+		<div>
+		    <form role="search">
+			<div class="form-group" style="padding-left:2px;">
+				<input type="text" class="form-control" placeholder="Поиск" style="width: 100%; height: 30px;">
+			</div>
+			<!-- <button type="submit" class="btn btn-default">Ok</button> -->
+		    </form>
+		</div>
+
+		<div>
+			<a target="_blank" href="http://vk.com/"><img src="./img/soc/vkontakte.png"></img></a>
+			<a target="_blank" href="https://www.facebook.com/"><img src="./img/soc/facebook.png"></img></a>
+			<a target="_blank" href="http://my.mail.ru/mail/"><img src="./img/soc/moy-mir.png"></img></a>
+			<a target="_blank" href="http://twitter.com/"><img src="./img/soc/twitter.png"></img></a>
 		</div>
 
 	</div> <!-- End of right sidebar -->
@@ -429,12 +511,6 @@
   $(function () {
     $('#myTab a:first').tab('show')
   })
-</script>
-<script>
-$(document).ready(function(){
-var images = ['bg1.png', 'bg2.jpg', 'bg3.jpg'];
-$('#jumbotron').css({'background-image': 'url(img/jumbobg/' + images[Math.floor(Math.random() *      images.length)] + ')'});
-});
 </script>
   </body>
 </html>
