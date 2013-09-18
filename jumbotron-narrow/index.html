@@ -18,11 +18,15 @@
     <!-- Custom styles for this template -->
     <link href="./css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="./css/shadowbox.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="./js/html5shiv.js"></script>
       <script src="./js/respond.min.js"></script>
     <![endif]-->
+
+
+
   </head>
 
   <body>
@@ -179,10 +183,13 @@
 
 			<h4>Салат из свежих томатов</h4>
 
+
+
+
 			<p>Morbi leo risus, porta ac consectetur ac, <a href="#">vestibulum</a> at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-			<div class="hidden-xs"><img src="./img/vegetarianf.png" width="350px" class="img-rounded" /></div>
+			<div class="hidden-xs"><a href="./img/vegetarianf.png" rel="shadowbox" title="Салат из овощей"><img src="./img/vegetarianf.png" width="350px" class="img-rounded" /></a></div>
 			<div class="visible-xs">
-			<a href="./img/vegetarianf.png" target="_blank" />
+			<a href="./img/vegetarianf.png" target="_blank" rel="shadowbox"/>
 			    <img class="img-thumbnail" src="./img/photo_here.png" alt="Click to view image" style="width: 130px; height: 130px;"></img></a>
 			</div>
 			<!-- <img src="..." alt="..." class="img-thumbnail"> -->
@@ -425,6 +432,7 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/holder.js"></script>
 
+    <script type="text/javascript" src="./js/shadowbox.js"></script>
 <script>
   $(function () {
     $('#myTab a:first').tab('show')
@@ -435,6 +443,9 @@ $(document).ready(function(){
 var images = ['bg1.png', 'bg2.jpg', 'bg3.jpg'];
 $('#jumbotron').css({'background-image': 'url(img/jumbobg/' + images[Math.floor(Math.random() *      images.length)] + ')'});
 });
+</script>
+<script type="text/javascript">
+Shadowbox.init();
 </script>
   </body>
 </html>
